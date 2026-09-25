@@ -1176,185 +1176,6 @@ button {
 
 
 /* =========================================================
-   FOUNDER SECTION
-========================================================= */
-
-.founder-section {
-
-    padding-block: 130px;
-
-    background:
-        linear-gradient(
-            180deg,
-            var(--brown-dark),
-            var(--brown)
-        );
-
-    border-top:
-        1px solid var(--line);
-
-}
-
-
-.founder-grid {
-
-    display: grid;
-
-    grid-template-columns:
-        1.05fr 0.95fr;
-
-    gap: 90px;
-
-    align-items: center;
-
-}
-
-
-.founder-image {
-
-    position: relative;
-
-}
-
-
-.founder-image img {
-
-    height: 620px;
-
-    object-fit: cover;
-
-    object-position: center;
-
-}
-
-
-.founder-image-label {
-
-    position: absolute;
-
-    left: 25px;
-
-    bottom: 25px;
-
-    padding:
-        10px 15px;
-
-    background:
-        rgba(8,7,6,0.85);
-
-}
-
-
-.founder-image-label span {
-
-    font-family: var(--label-font);
-
-    font-size: 9px;
-
-    letter-spacing: 0.2em;
-
-    color: var(--gold-light);
-
-}
-
-
-.founder-content h2 {
-
-    margin-top: 16px;
-
-    font-family: var(--heading-font);
-
-    font-size: clamp(50px, 5.5vw, 70px);
-
-    line-height: 0.94;
-
-    font-weight: 500;
-
-}
-
-
-.founder-content h2 span {
-
-    display: block;
-
-    color: var(--gold-light);
-
-    font-style: italic;
-
-}
-
-
-.quote-mark {
-
-    margin-top: 30px;
-
-    font-family: Georgia, serif;
-
-    font-size: 85px;
-
-    line-height: 0.5;
-
-    color: var(--gold);
-
-}
-
-
-.founder-content blockquote {
-
-    margin-top: 25px;
-
-    color: var(--cream-soft);
-
-    font-family: var(--heading-font);
-
-    font-size: 24px;
-
-    line-height: 1.4;
-
-}
-
-
-.founder-signature {
-
-    display: flex;
-
-    flex-direction: column;
-
-    margin-top: 30px;
-
-    padding-left: 18px;
-
-    border-left:
-        2px solid var(--gold);
-
-}
-
-
-.founder-signature span {
-
-    font-family: var(--script-font);
-
-    font-size: 25px;
-
-    color: var(--gold-light);
-
-}
-
-
-.founder-signature strong {
-
-    margin-top: 3px;
-
-    font-family: var(--label-font);
-
-    font-size: 9px;
-
-    letter-spacing: 0.15em;
-
-}
-
-
-/* =========================================================
    GALLERY
 ========================================================= */
 
@@ -2122,8 +1943,7 @@ button {
     }
 
 
-    .story-grid,
-    .founder-grid {
+    .story-grid {
 
         gap: 50px;
 
@@ -2348,10 +2168,8 @@ button {
 
 
     .menu-grid {
-
-        grid-template-columns:
-            1fr;
-
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
     }
 
 
@@ -2397,8 +2215,7 @@ button {
     }
 
 
-    .story-grid,
-    .founder-grid {
+    .story-grid {
 
         grid-template-columns:
             1fr;
@@ -2406,26 +2223,9 @@ button {
     }
 
 
-    .story-image img,
-    .founder-image img {
+    .story-image img {
 
         height: 500px;
-
-    }
-
-
-    /* FOUNDER */
-
-    .founder-section {
-
-        padding-block: 90px;
-
-    }
-
-
-    .founder-content blockquote {
-
-        font-size: 21px;
 
     }
 
@@ -2643,8 +2443,7 @@ button {
     }
 
 
-    .story-image img,
-    .founder-image img {
+    .story-image img {
 
         height: 430px;
 
@@ -2890,4 +2689,11 @@ button {
         width: 40px;
         height: 40px;
     }
+}
+@media (max-width: 760px) {
+    .menu-card { min-width: 0; }
+    .menu-image { height: clamp(125px, 27vw, 200px); }
+    .menu-card-content { padding: 14px; }
+    .menu-card h3 { font-size: clamp(20px, 5vw, 26px); }
+    .menu-card p { overflow-wrap: anywhere; }
 }

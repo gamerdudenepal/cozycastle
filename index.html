@@ -1,28 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="Cozy Castle Social Club & Bar — great food, crafted drinks and unforgettable moments.">
+    <meta
+      name="description"
+      content="Cozy Castle Social Club & Bar — great food, crafted drinks and unforgettable moments."
+    />
 
     <title>Cozy Castle Social Club & Bar</title>
-
 
     <!-- =========================
          GOOGLE FONTS
     ========================== -->
 
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!--
         Cormorant Garamond = luxury headings
@@ -31,1595 +27,896 @@
         Caveat = handwritten accent
     -->
 
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
-          rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- =========================
          FONT AWESOME
     ========================== -->
 
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
 
     <!-- =========================
          CSS
     ========================== -->
 
-    <link rel="stylesheet"
-          href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-
-<body>
-
-
+  <body>
     <!-- =====================================================
          HEADER
     ====================================================== -->
 
-    <header class="site-header"
-            id="siteHeader">
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <!-- LOGO -->
 
-        <div class="container header-inner">
+        <a href="#home" class="logo">
+          <span class="logo-main"> COZY CASTLE </span>
 
+          <span class="logo-sub"> SOCIAL CLUB & BAR </span>
+        </a>
 
-            <!-- LOGO -->
+        <!-- DESKTOP NAVIGATION -->
 
-            <a href="#home"
-               class="logo">
+        <nav class="desktop-nav">
+          <a href="#home"> Home </a>
 
-                <span class="logo-main">
-                    COZY CASTLE
-                </span>
+          <a href="#about"> About </a>
 
-                <span class="logo-sub">
-                    SOCIAL CLUB & BAR
-                </span>
+          <a href="#menu"> Menu </a>
 
-            </a>
+          <a href="#gallery"> Gallery </a>
 
-
-            <!-- DESKTOP NAVIGATION -->
-
-            <nav class="desktop-nav">
-
-                <a href="#home">
-                    Home
-                </a>
-
-                <a href="#about">
-                    About
-                </a>
-
-                <a href="#menu">
-                    Menu
-                </a>
-
-                <a href="#gallery">
-                    Gallery
-                </a>
-
-                <a href="#contact">
-                    Contact
-                </a>
-
-            </nav>
-
-
-            <!-- MOBILE MENU BUTTON -->
-
-            <button class="mobile-menu-button"
-                    id="mobileMenuButton"
-                    aria-label="Open menu">
-
-                <i class="fa-solid fa-bars"></i>
-
-            </button>
-
-        </div>
-
-
-        <!-- MOBILE NAVIGATION -->
-
-        <nav class="mobile-nav"
-             id="mobileNav">
-
-            <a href="#home">
-                Home
-            </a>
-
-            <a href="#about">
-                About
-            </a>
-
-            <a href="#menu">
-                Menu
-            </a>
-
-            <a href="#gallery">
-                Gallery
-            </a>
-
-            <a href="#contact">
-                Contact
-            </a>
-
+          <a href="#contact"> Contact </a>
         </nav>
 
+        <!-- MOBILE MENU BUTTON -->
+
+        <button
+          class="mobile-menu-button"
+          id="mobileMenuButton"
+          aria-label="Open menu"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- MOBILE NAVIGATION -->
+
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="#home"> Home </a>
+
+        <a href="#about"> About </a>
+
+        <a href="#menu"> Menu </a>
+
+        <a href="#gallery"> Gallery </a>
+
+        <a href="#contact"> Contact </a>
+      </nav>
     </header>
-
-
 
     <!-- =====================================================
          HERO
     ====================================================== -->
 
     <main>
+      <section class="hero" id="home">
+        <!-- DARK OVERLAY -->
 
-        <section class="hero"
-                 id="home">
+        <div class="hero-overlay"></div>
 
+        <div class="container hero-content">
+          <p class="hero-script reveal">Your cozy escape</p>
 
-            <!-- DARK OVERLAY -->
+          <p class="hero-label reveal">COFFEE · FOOD · DRINKS · MOMENTS</p>
 
-            <div class="hero-overlay"></div>
+          <h1 class="reveal">
+            Good food.
+            <br />
 
+            Great drinks.
 
-            <div class="container hero-content">
+            <em> Better moments. </em>
+          </h1>
 
+          <p class="hero-description reveal">
+            Welcome to Cozy Castle Social Club & Bar — a warm place to enjoy
+            delicious food, refreshing drinks and unforgettable moments with the
+            people who matter.
+          </p>
 
-                <p class="hero-script reveal">
+          <div class="hero-buttons reveal">
+            <a href="#menu" class="btn btn-primary">
+              Explore Our Menu
 
-                    Your cozy escape
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
 
-                </p>
+            <a href="#contact" class="btn btn-outline"> Find Us </a>
+          </div>
+        </div>
 
+        <!-- SCROLL INDICATOR -->
 
-                <p class="hero-label reveal">
+        <div class="scroll-indicator">
+          <span> SCROLL </span>
 
-                    COFFEE · FOOD · DRINKS · MOMENTS
+          <div class="scroll-line"></div>
+        </div>
+      </section>
 
-                </p>
-
-
-                <h1 class="reveal">
-
-                    Good food.
-                    <br>
-
-                    Great drinks.
-
-                    <em>
-                        Better moments.
-                    </em>
-
-                </h1>
-
-
-                <p class="hero-description reveal">
-
-                    Welcome to Cozy Castle Social Club & Bar —
-                    a warm place to enjoy delicious food, refreshing
-                    drinks and unforgettable moments with the people
-                    who matter.
-
-                </p>
-
-
-                <div class="hero-buttons reveal">
-
-                    <a href="#menu"
-                       class="btn btn-primary">
-
-                        Explore Our Menu
-
-                        <i class="fa-solid fa-arrow-right"></i>
-
-                    </a>
-
-
-                    <a href="#contact"
-                       class="btn btn-outline">
-
-                        Find Us
-
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- SCROLL INDICATOR -->
-
-            <div class="scroll-indicator">
-
-                <span>
-                    SCROLL
-                </span>
-
-                <div class="scroll-line"></div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
+      <!-- =====================================================
              INTRO
         ====================================================== -->
 
-        <section class="intro-section">
+      <section class="intro-section">
+        <div class="container intro-grid">
+          <div class="intro-heading reveal">
+            <p class="section-label">WELCOME TO THE CASTLE</p>
 
-            <div class="container intro-grid">
+            <h2>
+              A place to
+              <span> slow down. </span>
+            </h2>
+          </div>
 
+          <div class="intro-text reveal">
+            <p>
+              At Cozy Castle, we believe the best memories are made around a
+              table.
+            </p>
 
-                <div class="intro-heading reveal">
+            <p>
+              Whether you're meeting friends, enjoying a quiet coffee, having
+              dinner, or spending an evening with good company, our doors are
+              open for you.
+            </p>
+          </div>
+        </div>
+      </section>
 
-                    <p class="section-label">
-                        WELCOME TO THE CASTLE
-                    </p>
-
-                    <h2>
-                        A place to
-                        <span>
-                            slow down.
-                        </span>
-                    </h2>
-
-                </div>
-
-
-                <div class="intro-text reveal">
-
-                    <p>
-
-                        At Cozy Castle, we believe the best
-                        memories are made around a table.
-
-                    </p>
-
-                    <p>
-
-                        Whether you're meeting friends,
-                        enjoying a quiet coffee, having dinner,
-                        or spending an evening with good company,
-                        our doors are open for you.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
+      <!-- =====================================================
              MENU
         ====================================================== -->
 
-        <section class="menu-section"
-                 id="menu">
+      <section class="menu-section" id="menu">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="section-label">FROM OUR KITCHEN</p>
 
-            <div class="container">
+            <h2>Explore Our Menu</h2>
 
+            <p>Discover the food and drinks available at Cozy Castle.</p>
+          </div>
 
-                <div class="section-heading center reveal">
+          <!-- MENU FILTER -->
 
-                    <p class="section-label">
-                        FROM OUR KITCHEN
-                    </p>
+          <div class="menu-filters reveal">
+            <button class="filter-button active" data-filter="all">All</button>
 
-                    <h2>
-                        Explore Our Menu
-                    </h2>
+            <button class="filter-button" data-filter="breakfast">
+              Breakfast
+            </button>
 
-                    <p>
+            <button class="filter-button" data-filter="mains">Mains</button>
 
-                        Discover the food and drinks available
-                        at Cozy Castle.
+            <button class="filter-button" data-filter="burgers">
+              Burgers & Sandwiches
+            </button>
 
-                    </p>
+            <button class="filter-button" data-filter="coffee">Coffee</button>
+
+            <button class="filter-button" data-filter="drinks">Drinks</button>
 
-                </div>
+            <button class="filter-button" data-filter="desserts">
+              Desserts
+            </button>
+          </div>
+
+          <!-- MENU GRID -->
 
-
-                <!-- MENU FILTER -->
-
-                <div class="menu-filters reveal">
-
-                    <button class="filter-button active"
-                            data-filter="all">
-
-                        All
-
-                    </button>
-
-                    <button class="filter-button"
-                            data-filter="breakfast">
-
-                        Breakfast
-
-                    </button>
-
-                    <button class="filter-button"
-                            data-filter="mains">
-
-                        Mains
-
-                    </button>
-
-                    <button class="filter-button"
-                            data-filter="burgers">
-
-                        Burgers & Sandwiches
-
-                    </button>
-
-                    <button class="filter-button"
-                            data-filter="coffee">
-
-                        Coffee
-
-                    </button>
-
-                    <button class="filter-button"
-                            data-filter="drinks">
-
-                        Drinks
-
-                    </button>
-
-                    <button class="filter-button"
-                            data-filter="desserts">
-
-                        Desserts
-
-                    </button>
-
-                </div>
-
-
-
-                <!-- MENU GRID -->
-
-                <div class="menu-grid">
-
-
-                    <!-- BREAKFAST -->
-
-                    <article class="menu-card reveal"
-                             data-category="breakfast">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
-                                 alt="Castle Breakfast">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                BREAKFAST
-                            </span>
-
-                            <h3>
-                                Castle Breakfast
-                            </h3>
-
-                            <p>
-                                A hearty breakfast selection to
-                                start your day comfortably.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                 <article class="menu-card reveal"
-         data-category="breakfast">
-
-    <div class="menu-image">
-
-        <img src="https://unsplash.com/photos/a-plate-of-food-RhySFXb0Wa0"
-             alt="Avocado Toast">
-
-    </div>
-
-    <div class="menu-card-content">
-
-        <span class="menu-category">
-            BREAKFAST
-        </span>
-
-        <h3>
-            Royal Avocado Toast
-        </h3>
-
-        <p>
-            Fresh avocado served over toasted
-            bread with seasonal ingredients.
-        </p>
-
-    </div>
-
-</article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="breakfast">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=85"
-                                 alt="Pancakes">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                BREAKFAST
-                            </span>
-
-                            <h3>
-                                Castle Pancakes
-                            </h3>
-
-                            <p>
-                                Soft pancakes prepared for a
-                                relaxed morning.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- MAINS -->
-
-                    <article class="menu-card reveal"
-                             data-category="mains">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
-                                 alt="Creamy Pasta">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                MAINS
-                            </span>
-
-                            <h3>
-                                Creamy Castle Pasta
-                            </h3>
-
-                            <p>
-                                Creamy pasta prepared with
-                                carefully selected ingredients.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="mains">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
-                                 alt="Fresh Salad">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                MAINS
-                            </span>
-
-                            <h3>
-                                Garden Castle Salad
-                            </h3>
-
-                            <p>
-                                Fresh vegetables and seasonal
-                                ingredients brought together.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="mains">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85"
-                                 alt="Grilled Chicken">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                MAINS
-                            </span>
-
-                            <h3>
-                                Grilled Chicken
-                            </h3>
-
-                            <p>
-                                Tender grilled chicken served with
-                                carefully prepared sides.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- BURGERS -->
-
-                    <article class="menu-card reveal"
-                             data-category="burgers">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
-                                 alt="Castle Burger">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                BURGERS
-                            </span>
-
-                            <h3>
-                                Cozy Castle Burger
-                            </h3>
-
-                            <p>
-                                A satisfying burger prepared with
-                                fresh ingredients.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="burgers">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=900&q=85"
-                                 alt="Club Sandwich">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                SANDWICHES
-                            </span>
-
-                            <h3>
-                                Grilled Chicken Club
-                            </h3>
-
-                            <p>
-                                A layered sandwich prepared with
-                                grilled chicken and fresh fillings.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- COFFEE -->
-
-                    <article class="menu-card reveal"
-                             data-category="coffee">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85"
-                                 alt="Coffee">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                COFFEE
-                            </span>
-
-                            <h3>
-                                Classic Coffee
-                            </h3>
-
-                            <p>
-                                Carefully prepared coffee for
-                                everyday coffee lovers.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="coffee">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=900&q=85"
-                                 alt="Cappuccino">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                COFFEE
-                            </span>
-
-                            <h3>
-                                Cappuccino
-                            </h3>
-
-                            <p>
-                                Smooth espresso balanced with
-                                steamed milk and foam.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="coffee">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
-                                 alt="Latte">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                COFFEE
-                            </span>
-
-                            <h3>
-                                Castle Latte
-                            </h3>
-
-                            <p>
-                                Smooth espresso with creamy
-                                steamed milk.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- DRINKS -->
-
-                    <article class="menu-card reveal"
-                             data-category="drinks">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=85"
-                                 alt="Fresh Drink">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                DRINKS
-                            </span>
-
-                            <h3>
-                                Fresh Juices
-                            </h3>
-
-                            <p>
-                                Refreshing fruit juices prepared
-                                with fresh ingredients.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="drinks">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=85"
-                                 alt="Mojito">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                DRINKS
-                            </span>
-
-                            <h3>
-                                Signature Mojito
-                            </h3>
-
-                            <p>
-                                A refreshing combination of
-                                citrus, mint and sparkling refreshment.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="drinks">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=85"
-                                 alt="Milkshake">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                DRINKS
-                            </span>
-
-                            <h3>
-                                Castle Milkshakes
-                            </h3>
-
-                            <p>
-                                Thick and creamy milkshakes in
-                                delicious flavours.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- DESSERTS -->
-
-                    <article class="menu-card reveal"
-                             data-category="desserts">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
-                                 alt="Chocolate Cake">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                DESSERT
-                            </span>
-
-                            <h3>
-                                Chocolate Cake
-                            </h3>
-
-                            <p>
-                                Rich chocolate cake for a
-                                sweet ending.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <article class="menu-card reveal"
-                             data-category="desserts">
-
-                        <div class="menu-image">
-
-                            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=85"
-                                 alt="Cheesecake">
-
-                        </div>
-
-                        <div class="menu-card-content">
-
-                            <span class="menu-category">
-                                DESSERT
-                            </span>
-
-                            <h3>
-                                Castle Cheesecake
-                            </h3>
-
-                            <p>
-                                Smooth cheesecake prepared for
-                                dessert lovers.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
+          <div class="menu-grid">
+            <!-- BREAKFAST -->
+
+            <article class="menu-card reveal" data-category="breakfast">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+                  alt="Castle Breakfast"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> BREAKFAST </span>
+
+                <h3>Castle Breakfast</h3>
+
+                <p>
+                  A hearty breakfast selection to start your day comfortably.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="breakfast">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=85"
+                  alt="Avocado Toast"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> BREAKFAST </span>
+
+                <h3>Royal Avocado Toast</h3>
+
+                <p>
+                  Fresh avocado served over toasted bread with seasonal
+                  ingredients.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="breakfast">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=85"
+                  alt="Pancakes"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> BREAKFAST </span>
+
+                <h3>Castle Pancakes</h3>
+
+                <p>Soft pancakes prepared for a relaxed morning.</p>
+              </div>
+            </article>
+
+            <!-- MAINS -->
+
+            <article class="menu-card reveal" data-category="mains">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
+                  alt="Creamy Pasta"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> MAINS </span>
+
+                <h3>Creamy Castle Pasta</h3>
+
+                <p>
+                  Creamy pasta prepared with carefully selected ingredients.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="mains">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+                  alt="Fresh Salad"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> MAINS </span>
+
+                <h3>Garden Castle Salad</h3>
+
+                <p>
+                  Fresh vegetables and seasonal ingredients brought together.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="mains">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85"
+                  alt="Grilled Chicken"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> MAINS </span>
+
+                <h3>Grilled Chicken</h3>
+
+                <p>
+                  Tender grilled chicken served with carefully prepared sides.
+                </p>
+              </div>
+            </article>
+
+            <!-- BURGERS -->
+
+            <article class="menu-card reveal" data-category="burgers">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+                  alt="Castle Burger"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> BURGERS </span>
+
+                <h3>Cozy Castle Burger</h3>
+
+                <p>A satisfying burger prepared with fresh ingredients.</p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="burgers">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=900&q=85"
+                  alt="Club Sandwich"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> SANDWICHES </span>
+
+                <h3>Grilled Chicken Club</h3>
+
+                <p>
+                  A layered sandwich prepared with grilled chicken and fresh
+                  fillings.
+                </p>
+              </div>
+            </article>
+
+            <!-- COFFEE -->
+
+            <article class="menu-card reveal" data-category="coffee">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85"
+                  alt="Coffee"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> COFFEE </span>
+
+                <h3>Classic Coffee</h3>
+
+                <p>Carefully prepared coffee for everyday coffee lovers.</p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="coffee">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=900&q=85"
+                  alt="Cappuccino"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> COFFEE </span>
+
+                <h3>Cappuccino</h3>
+
+                <p>Smooth espresso balanced with steamed milk and foam.</p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="coffee">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+                  alt="Latte"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> COFFEE </span>
+
+                <h3>Castle Latte</h3>
+
+                <p>Smooth espresso with creamy steamed milk.</p>
+              </div>
+            </article>
+
+            <!-- DRINKS -->
+
+            <article class="menu-card reveal" data-category="drinks">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=85"
+                  alt="Fresh Drink"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> DRINKS </span>
+
+                <h3>Fresh Juices</h3>
+
+                <p>Refreshing fruit juices prepared with fresh ingredients.</p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="drinks">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=85"
+                  alt="Mojito"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> DRINKS </span>
+
+                <h3>Signature Mojito</h3>
+
+                <p>
+                  A refreshing combination of citrus, mint and sparkling
+                  refreshment.
+                </p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="drinks">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=85"
+                  alt="Milkshake"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> DRINKS </span>
+
+                <h3>Castle Milkshakes</h3>
+
+                <p>Thick and creamy milkshakes in delicious flavours.</p>
+              </div>
+            </article>
+
+            <!-- DESSERTS -->
+
+            <article class="menu-card reveal" data-category="desserts">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+                  alt="Chocolate Cake"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> DESSERT </span>
+
+                <h3>Chocolate Cake</h3>
+
+                <p>Rich chocolate cake for a sweet ending.</p>
+              </div>
+            </article>
+
+            <article class="menu-card reveal" data-category="desserts">
+              <div class="menu-image">
+                <img
+                  src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=85"
+                  alt="Cheesecake"
+                />
+              </div>
+
+              <div class="menu-card-content">
+                <span class="menu-category"> DESSERT </span>
+
+                <h3>Castle Cheesecake</h3>
+
+                <p>Smooth cheesecake prepared for dessert lovers.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================
              EXPERIENCE
         ====================================================== -->
 
-        <section class="experience-section">
+      <section class="experience-section">
+        <div class="experience-image reveal"></div>
 
-            <div class="experience-image reveal"></div>
+        <div class="experience-content reveal">
+          <p class="section-label">THE CASTLE EXPERIENCE</p>
 
+          <h2>
+            Come for the food.
+            <span> Stay for the atmosphere. </span>
+          </h2>
 
-            <div class="experience-content reveal">
+          <p>
+            Cozy Castle is more than a place to eat. It's a space designed for
+            conversations, celebrations, relaxing evenings and everyday moments
+            worth remembering.
+          </p>
 
-                <p class="section-label">
-                    THE CASTLE EXPERIENCE
-                </p>
+          <div class="experience-points">
+            <div>
+              <i class="fa-solid fa-mug-hot"></i>
 
-                <h2>
-                    Come for the food.
-                    <span>
-                        Stay for the atmosphere.
-                    </span>
-                </h2>
-
-                <p>
-
-                    Cozy Castle is more than a place to eat.
-                    It's a space designed for conversations,
-                    celebrations, relaxing evenings and
-                    everyday moments worth remembering.
-
-                </p>
-
-                <div class="experience-points">
-
-                    <div>
-                        <i class="fa-solid fa-mug-hot"></i>
-
-                        <span>
-                            Quality coffee
-                        </span>
-                    </div>
-
-                    <div>
-                        <i class="fa-solid fa-utensils"></i>
-
-                        <span>
-                            Delicious food
-                        </span>
-                    </div>
-
-                    <div>
-                        <i class="fa-solid fa-martini-glass-citrus"></i>
-
-                        <span>
-                            Refreshing drinks
-                        </span>
-                    </div>
-
-                    <div>
-                        <i class="fa-solid fa-heart"></i>
-
-                        <span>
-                            Memorable moments
-                        </span>
-                    </div>
-
-                </div>
-
+              <span> Quality coffee </span>
             </div>
 
-        </section>
+            <div>
+              <i class="fa-solid fa-utensils"></i>
 
+              <span> Delicious food </span>
+            </div>
 
+            <div>
+              <i class="fa-solid fa-martini-glass-citrus"></i>
 
-        <!-- =====================================================
+              <span> Refreshing drinks </span>
+            </div>
+
+            <div>
+              <i class="fa-solid fa-heart"></i>
+
+              <span> Memorable moments </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================
              OUR STORY
         ====================================================== -->
 
-        <section class="story-section"
-                 id="about">
+      <section class="story-section" id="about">
+        <div class="container story-grid">
+          <div class="story-image reveal">
+            <img
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85"
+              alt="Cozy Castle interior"
+            />
 
-            <div class="container story-grid">
-
-
-                <div class="story-image reveal">
-
-                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85"
-                         alt="Cozy Castle interior">
-
-                    <div class="image-caption">
-
-                        <span>
-                            OUR STORY
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-                <div class="story-content reveal">
-
-                    <p class="section-label">
-                        OUR STORY
-                    </p>
-
-                    <h2>
-                        Built around
-                        <span>
-                            good company.
-                        </span>
-                    </h2>
-
-                    <p>
-
-                        Cozy Castle Social Club & Bar was created
-                        with a simple idea — create a place where
-                        people feel comfortable being themselves.
-
-                    </p>
-
-                    <p>
-
-                        From the first cup of coffee to the last
-                        conversation of the evening, every part of
-                        the experience is designed to feel warm,
-                        relaxed and welcoming.
-
-                    </p>
-
-                    <p>
-
-                        We believe great hospitality isn't only
-                        about what's on the plate. It's about how
-                        people feel when they walk through our doors.
-
-                    </p>
-
-                </div>
-
+            <div class="image-caption">
+              <span> OUR STORY </span>
             </div>
+          </div>
 
-        </section>
+          <div class="story-content reveal">
+            <p class="section-label">OUR STORY</p>
 
+            <h2>
+              Built around
+              <span> good company. </span>
+            </h2>
 
+            <p>
+              Cozy Castle Social Club & Bar was created with a simple idea —
+              create a place where people feel comfortable being themselves.
+            </p>
 
-        <!-- =====================================================
-             WORDS FROM FOUNDER
-        ====================================================== -->
+            <p>
+              From the first cup of coffee to the last conversation of the
+              evening, every part of the experience is designed to feel warm,
+              relaxed and welcoming.
+            </p>
 
-        <section class="founder-section">
+            <p>
+              We believe great hospitality isn't only about what's on the plate.
+              It's about how people feel when they walk through our doors.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <div class="container founder-grid">
-
-
-                <!-- FOUNDER IMAGE -->
-
-                <div class="founder-image reveal">
-
-                    <img src="public/madhav.jpg"
-                         alt="Founder of Cozy Castle">
-
-                    <div class="founder-image-label">
-
-                        <span>
-                            THE FOUNDER
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-                <!-- FOUNDER MESSAGE -->
-
-                <div class="founder-content reveal">
-
-                    <p class="section-label">
-                        WORDS FROM THE FOUNDER
-                    </p>
-
-                    <h2>
-                        A place built
-                        <span>
-                            with heart.
-                        </span>
-                    </h2>
-
-                    <div class="quote-mark">
-                        "
-                    </div>
-
-                    <blockquote>
-
-                        We wanted to create more than just
-                        another café or bar.
-
-                        We wanted to build a place where people
-                        could come together, relax, share stories,
-                        enjoy great food and create memories.
-
-                        Cozy Castle is our way of creating that
-                        feeling — warm, welcoming and always ready
-                        to make your day a little better.
-
-                    </blockquote>
-
-                    <div class="founder-signature">
-
-                        <span>
-                            Founder
-                        </span>
-
-                        <strong>
-                            Cozy Castle Social Club & Bar
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
+<!-- =====================================================
              SPECIAL MOMENTS / GALLERY
         ====================================================== -->
 
-        <section class="gallery-section"
-                 id="gallery">
+      <section class="gallery-section" id="gallery">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="section-label">SPECIAL MOMENTS</p>
 
-            <div class="container">
+            <h2>Life at Cozy Castle</h2>
 
+            <p>
+              A glimpse into the people, atmosphere and moments that make Cozy
+              Castle special.
+            </p>
+          </div>
 
-                <div class="section-heading center reveal">
+          <!-- PHOTO SLIDER -->
 
-                    <p class="section-label">
-                        SPECIAL MOMENTS
-                    </p>
+          <div class="gallery-slider reveal">
+            <div class="gallery-track" id="galleryTrack">
+              <!-- SLIDE 1 -->
 
-                    <h2>
-                        Life at Cozy Castle
-                    </h2>
+              <div class="gallery-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1600&q=90"
+                  alt="Cozy Castle dining experience"
+                />
 
-                    <p>
+                <div class="gallery-caption">
+                  <span> GOOD FOOD </span>
 
-                        A glimpse into the people, atmosphere
-                        and moments that make Cozy Castle special.
-
-                    </p>
-
+                  <h3>Moments worth sharing</h3>
                 </div>
+              </div>
 
+              <!-- SLIDE 2 -->
 
-                <!-- PHOTO SLIDER -->
+              <div class="gallery-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1600&q=90"
+                  alt="Drinks at Cozy Castle"
+                />
 
-                <div class="gallery-slider reveal">
+                <div class="gallery-caption">
+                  <span> GOOD DRINKS </span>
 
-
-                    <div class="gallery-track"
-                         id="galleryTrack">
-
-
-                        <!-- SLIDE 1 -->
-
-                        <div class="gallery-slide">
-
-                            <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1600&q=90"
-                                 alt="Cozy Castle dining experience">
-
-                            <div class="gallery-caption">
-
-                                <span>
-                                    GOOD FOOD
-                                </span>
-
-                                <h3>
-                                    Moments worth sharing
-                                </h3>
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- SLIDE 2 -->
-
-                        <div class="gallery-slide">
-
-                            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1600&q=90"
-                                 alt="Drinks at Cozy Castle">
-
-                            <div class="gallery-caption">
-
-                                <span>
-                                    GOOD DRINKS
-                                </span>
-
-                                <h3>
-                                    Evenings made memorable
-                                </h3>
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- SLIDE 3 -->
-
-                        <div class="gallery-slide">
-
-                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=90"
-                                 alt="Friends enjoying time together">
-
-                            <div class="gallery-caption">
-
-                                <span>
-                                    GOOD COMPANY
-                                </span>
-
-                                <h3>
-                                    Together is better
-                                </h3>
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- SLIDE 4 -->
-
-                        <div class="gallery-slide">
-
-                            <img src="https://images.unsplash.com/photo-1519671282429-b44660ead0a7?auto=format&fit=crop&w=1600&q=90"
-                                 alt="Cozy restaurant atmosphere">
-
-                            <div class="gallery-caption">
-
-                                <span>
-                                    COZY MOMENTS
-                                </span>
-
-                                <h3>
-                                    Feel at home
-                                </h3>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- PREVIOUS -->
-
-                    <button class="slider-button slider-prev"
-                            id="galleryPrev"
-                            aria-label="Previous photo">
-
-                        <i class="fa-solid fa-arrow-left"></i>
-
-                    </button>
-
-
-                    <!-- NEXT -->
-
-                    <button class="slider-button slider-next"
-                            id="galleryNext"
-                            aria-label="Next photo">
-
-                        <i class="fa-solid fa-arrow-right"></i>
-
-                    </button>
-
-
+                  <h3>Evenings made memorable</h3>
                 </div>
+              </div>
 
+              <!-- SLIDE 3 -->
 
-                <!-- SLIDER DOTS -->
+              <div class="gallery-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=90"
+                  alt="Friends enjoying time together"
+                />
 
-                <div class="slider-dots"
-                     id="sliderDots">
+                <div class="gallery-caption">
+                  <span> GOOD COMPANY </span>
 
-                    <button class="slider-dot active"
-                            data-slide="0"></button>
-
-                    <button class="slider-dot"
-                            data-slide="1"></button>
-
-                    <button class="slider-dot"
-                            data-slide="2"></button>
-
-                    <button class="slider-dot"
-                            data-slide="3"></button>
-
+                  <h3>Together is better</h3>
                 </div>
+              </div>
 
+              <!-- SLIDE 4 -->
 
-                <p class="gallery-note">
+              <div class="gallery-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1519671282429-b44660ead0a7?auto=format&fit=crop&w=1600&q=90"
+                  alt="Cozy restaurant atmosphere"
+                />
 
-                    Your own customer photos can be added here later.
+                <div class="gallery-caption">
+                  <span> COZY MOMENTS </span>
 
-                </p>
-
+                  <h3>Feel at home</h3>
+                </div>
+              </div>
             </div>
 
-        </section>
+            <!-- PREVIOUS -->
 
+            <button
+              class="slider-button slider-prev"
+              id="galleryPrev"
+              aria-label="Previous photo"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
 
+            <!-- NEXT -->
 
-        <!-- =====================================================
+            <button
+              class="slider-button slider-next"
+              id="galleryNext"
+              aria-label="Next photo"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- SLIDER DOTS -->
+
+          <div class="slider-dots" id="sliderDots">
+            <button class="slider-dot active" data-slide="0"></button>
+
+            <button class="slider-dot" data-slide="1"></button>
+
+            <button class="slider-dot" data-slide="2"></button>
+
+            <button class="slider-dot" data-slide="3"></button>
+          </div>
+
+          <p class="gallery-note">
+            Your own customer photos can be added here later.
+          </p>
+        </div>
+      </section>
+
+      <!-- =====================================================
              WHATSAPP CTA
         ====================================================== -->
 
-        <section class="whatsapp-section">
+      <section class="whatsapp-section">
+        <div class="container whatsapp-inner reveal">
+          <div>
+            <p class="section-label">HAVE A QUESTION?</p>
 
-            <div class="container whatsapp-inner reveal">
+            <h2>Let's talk.</h2>
 
+            <p>Contact Cozy Castle directly through WhatsApp.</p>
+          </div>
 
-                <div>
+          <a
+            href="https://wa.me/971542454641"
+            target="_blank"
+            class="btn btn-whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
 
-                    <p class="section-label">
-                        HAVE A QUESTION?
-                    </p>
+            Chat on WhatsApp
 
-                    <h2>
-                        Let's talk.
-                    </h2>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </section>
 
-                    <p>
-                        Contact Cozy Castle directly through WhatsApp.
-                    </p>
-
-                </div>
-
-
-                <a href="https://wa.me/971542454641"
-                   target="_blank"
-                   class="btn btn-whatsapp">
-
-                    <i class="fa-brands fa-whatsapp"></i>
-
-                    Chat on WhatsApp
-
-                    <i class="fa-solid fa-arrow-right"></i>
-
-                </a>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =====================================================
+      <!-- =====================================================
              GOOGLE MAP / CONTACT
         ====================================================== -->
 
-        <section class="contact-section"
-                 id="contact">
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="section-label">COME VISIT US</p>
 
-            <div class="container">
+            <h2>Find Cozy Castle</h2>
 
+            <p>Come in, take a seat and make yourself comfortable.</p>
+          </div>
 
-                <div class="section-heading center reveal">
+          <div class="map-card reveal">
+            <!-- MAP -->
 
-                    <p class="section-label">
-                        COME VISIT US
-                    </p>
-
-                    <h2>
-                        Find Cozy Castle
-                    </h2>
-
-                    <p>
-
-                        Come in, take a seat and make yourself
-                        comfortable.
-
-                    </p>
-
-                </div>
-
-
-                <div class="map-card reveal">
-
-
-                    <!-- MAP -->
-
-                    <div class="map-placeholder">
-
-                        <iframe
-                            src="https://www.google.com/maps?q=Dubai%2C%20United%20Arab%20Emirates&output=embed"
-                            loading="lazy"
-                            title="Cozy Castle location">
-                        </iframe>
-
-                    </div>
-
-
-                    <!-- MAP INFORMATION -->
-
-                    <div class="map-info">
-
-                        <p class="section-label">
-                            OUR LOCATION
-                        </p>
-
-                        <h3>
-                            Come find your castle.
-                        </h3>
-
-                        <p>
-
-                            Visit us and experience the food,
-                            drinks and atmosphere of Cozy Castle
-                            Social Club & Bar.
-
-                        </p>
-
-
-                        <!-- LARGE GOOGLE MAP BUTTON -->
-
-                        <a href="https://www.google.com/maps"
-                           target="_blank"
-                           class="google-map-button">
-
-                            <span class="map-button-icon">
-
-                                <i class="fa-solid fa-location-dot"></i>
-
-                            </span>
-
-                            <span class="map-button-text">
-
-                                <small>
-                                    VIEW OUR LOCATION
-                                </small>
-
-                                <strong>
-                                    OPEN GOOGLE MAPS
-                                </strong>
-
-                            </span>
-
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                        </a>
-
-
-                        <a href="https://wa.me/971542454641"
-                           target="_blank"
-                           class="contact-whatsapp">
-
-                            <i class="fa-brands fa-whatsapp"></i>
-
-                            Ask us for directions
-
-                        </a>
-
-                    </div>
-
-                </div>
-
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps?q=Cozy%20Castle%20Social%20Club%20%26%20Bar&output=embed"
+                loading="lazy"
+                title="Cozy Castle location"
+              >
+              </iframe>
             </div>
 
-        </section>
+            <!-- MAP INFORMATION -->
 
+            <div class="map-info">
+              <p class="section-label">OUR LOCATION</p>
+
+              <h3>Come find your castle.</h3>
+
+              <p>
+                Visit us and experience the food, drinks and atmosphere of Cozy
+                Castle Social Club & Bar.
+              </p>
+
+              <!-- LARGE GOOGLE MAP BUTTON -->
+
+              <a
+                href="https://share.google/hoWHG5LIVGaqANCrg"
+                target="_blank"
+                class="google-map-button"
+              >
+                <span class="map-button-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </span>
+
+                <span class="map-button-text">
+                  <small> VIEW OUR LOCATION </small>
+
+                  <strong> OPEN GOOGLE MAPS </strong>
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+              <a
+                href="https://wa.me/971542454641"
+                target="_blank"
+                class="contact-whatsapp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+
+                Ask us for directions
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-
 
     <!-- =====================================================
          FOOTER
     ====================================================== -->
 
     <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-main"> COZY CASTLE </span>
 
-        <div class="container footer-grid">
+            <span class="logo-sub"> SOCIAL CLUB & BAR </span>
+          </a>
 
-
-            <div class="footer-brand">
-
-                <a href="#home"
-                   class="logo">
-
-                    <span class="logo-main">
-                        COZY CASTLE
-                    </span>
-
-                    <span class="logo-sub">
-                        SOCIAL CLUB & BAR
-                    </span>
-
-                </a>
-
-                <p>
-
-                    Good food. Great drinks.
-                    Better moments.
-
-                </p>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>
-                    Explore
-                </h4>
-
-                <a href="#about">
-                    About
-                </a>
-
-                <a href="#menu">
-                    Menu
-                </a>
-
-                <a href="#gallery">
-                    Gallery
-                </a>
-
-                <a href="#contact">
-                    Contact
-                </a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>
-                    Contact
-                </h4>
-
-                <a href="https://wa.me/971542454641"
-                   target="_blank">
-
-                    WhatsApp
-
-                </a>
-
-                <a href="#contact">
-                    Location
-                </a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h4>
-                    Follow
-                </h4>
-
-                <a href="#">
-                    Instagram
-                </a>
-
-                <a href="#">
-                    Facebook
-                </a>
-
-                <a href="#">
-                    TikTok
-                </a>
-
-            </div>
-
+          <p>Good food. Great drinks. Better moments.</p>
         </div>
 
+        <div class="footer-column">
+          <h4>Explore</h4>
 
-        <div class="container footer-bottom">
+          <a href="#about"> About </a>
 
-            <p>
-                © 2026 Cozy Castle Social Club & Bar.
-                All rights reserved.
-            </p>
+          <a href="#menu"> Menu </a>
 
-            <p>
-                Made with care.
-            </p>
+          <a href="#gallery"> Gallery </a>
 
+          <a href="#contact"> Contact </a>
         </div>
 
+        <div class="footer-column">
+          <h4>Contact</h4>
+
+          <a href="https://wa.me/971542454641" target="_blank"> WhatsApp </a>
+
+          <a href="#contact"> Location </a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Follow</h4>
+
+          <a href="#"> Instagram </a>
+
+          <a href="#"> Facebook </a>
+
+          <a href="#"> TikTok </a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Cozy Castle Social Club & Bar. All rights reserved.</p>
+
+        <p>Made with care.</p>
+      </div>
     </footer>
 
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/971542454641"
+      class="floating-whatsapp"
+      target="_blank"
+      aria-label="Chat with us"
+    >
+      <i class="fab fa-whatsapp"></i>
+      <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
 
-<!-- Floating WhatsApp Button -->
-<a href="https://wa.me/971542454641"
-   class="floating-whatsapp"
-   target="_blank"
-   aria-label="Chat with us">
-    <i class="fab fa-whatsapp"></i>
-    <span class="whatsapp-tooltip">Chat with us</span>
-</a>
-
-<!-- Back to Top Button -->
-<button class="back-to-top" id="backToTop" aria-label="Back to top">
-    <i class="fas fa-arrow-up"></i>
-</button>
-
-
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- =====================================================
          JAVASCRIPT
     ====================================================== -->
 
     <script src="script.js"></script>
-
-</body>
-
+  </body>
 </html>
